@@ -1,3 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-</addons>
+<addon id="plugin.audio.radiocn"
+    name="中国广播(Radiocn)"
+    version="1.0"
+    provider-name="osfans">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Radio.cn audio plugin</summary>
+        <summary lang="zh">央广娱乐音频</summary>
+        <description>中国广播Radio.cn是中央人民广播电台、央广新媒体文化传媒（北京）有限公司建设；中国广播依托全国广播、电视、媒体、版权公司等优势资源；中国广播借助中国广播联盟、全球华语广播联盟、高校广播联盟等协会组织的支持；面向行业单位、广播听众、互联网用户、以及手机车载社交等新兴媒体用户提供的娱乐和运营综合集成服务平台。中国广播集成平台具备全媒体音视频各项牌照，提供中国广播Radio.cn网站、中国广播客户端、集成平台管理系统、广播音频节目发布及制播系统等多项业务和服务</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.5ivdo"
+    name="5ivdo(5ivdo)"
+    version="1.2.0"
+    provider-name="5ivdo">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">5ivdo video plugin</summary>
+        <summary lang="zh">我爱VDO</summary>
+        <description lang="en">online video from 5ivdo.com</description>
+        <description lang="zh">在线视频聚合，主站[http://www.5ivdo.com]。基于XBMC运行，能够支持主要视频网站和网络电视台内容的在线播放，更多站点支持敬请期待。本站作为资源导航，只为个人服务，商业用途勿扰。你所体验的所有视频内容，版权归属相应网站，应对他们的工作心存感激。有任何意见或建议请加入QQ群[197687378]，或者关注官方微博[http://weibo.com/5ivdo]。让我们为创造更好的XBMC体验而努力！</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.rrmj"
+       name="人人美剧"
+       version="0.1.6"
+       provider-name="jindaxia">
+  <requires>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.keyboard.chinese" version="2.0.4" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh-CN">由人人影视转型后专门为美剧迷们打造的高质量讨论交流社区</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <website><![CDATA[https://github.com/jindaxia/plugin.video.rrmj]]></website>
+    <forum></forum>
+    <source><![CDATA[https://github.com/jindaxia/plugin.video.rrmj]]></source>
+  </extension>
+</addon>
+<addon id="plugin.video.yinyuetai"
+    name="音悦台MV(YinYueTai)"
+    version="1.7.9"
+    provider-name="cmeng (originator: Skyemperor)">
+    <requires>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YinYueTai video plugin</summary>
+        <summary lang="zh">音悦台视频插件</summary>
+        <description lang="en">Online MV from yinyuetai.com[CR][CR]To Enable Video Auto Playback Option:[CR]---------------------------------[CR]- Navigate to Add-on settings[CR]- Video Continuous Playback: Enable/Disable</description>
+        <description lang="zh">观看音悦台在线MV[CR][CR]视频自动播放说明：[CR]--------------------------------[CR]- 找到 Add-on settings 文件列表[CR]- 选择视频连续播放": 是/否</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.zhanqitv"
+    name="战旗TV(ZhanqiTV)"
+    version="1.0.4"
+    provider-name="Albert">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">zhanqitv video plugin</summary>
+        <summary lang="zh">战旗TV插件</summary>
+        <description lang="en">online video from www.zhanqi.tv</description>
+        <description lang="zh">战旗TV</description>
+        <platform>all</platform>
+    </extension>
+</addon>
