@@ -166,7 +166,7 @@
     </addon>
     <addon id="plugin.video.asia-tv"
         name="亚洲电视(Asia TVs)"
-        version="1.0.6"
+        version="2.0.5"
         provider-name="米老康">
         <extension
             point="xbmc.python.pluginsource"
